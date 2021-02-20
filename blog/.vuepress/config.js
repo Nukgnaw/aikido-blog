@@ -48,4 +48,8 @@ module.exports = {
       md.use(require('markdown-it-footnote'));
     }
   },
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&display=swap' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com'}],
+  ],
 }
